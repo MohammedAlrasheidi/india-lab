@@ -1,0 +1,18 @@
+h2 {
+  background-color: navy; /* Changed background color to navy */
+  color: white;
+  padding-left: 20px; /* Decreased padding-left to 20px */
+}
+
+form {
+  padding-left: 20px; /* Adjusted padding-left to match h2 */
+  padding-right: 20px; /* Adjusted padding-right to match h2 */
+  margin-top: 20px;  
+}
+
+.card {
+  margin-left: 20px; /* Adjusted margin-left to match form padding */
+  margin-right: 20px; /* Adjusted margin-right to match form padding */
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
