@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Seekers Survey</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Adventure Seekers Survey</h1>
+  </header>
+
+  <!-- First Card: Personal Info -->
+  <div class="card">
+    <form id="personal-info-form">
+      <h2>Personal Information:</h2>
+
+      <!-- Text Inputs -->
+      <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+      </div>
+
+      <!-- Date Input -->
+      <div class="form-group">
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <!-- Phone Number Input -->
+      <div class="form-group">
+        <label for="pnum">Phone Number:</label>
+        <input type="tel" id="pnum" name="pnum" placeholder="Enter your phone number" required>
+      </div>
+
+      <!-- L Number Input -->
+      <div class="form-group">
+        <label for="lnum">L Number:</label>
+        <input type="text" id="lnum" name="lnum" placeholder="Enter your L number" required>
+      </div>
+
+      <!-- Username Input -->
+      <div class="form-group">
+        <label for="usern">Username:</label>
+        <input type="text" id="usern" name="usern" placeholder="Enter your username" required>
+      </div>
+
+      <!-- Password Input -->
+      <div class="form-group">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+      </div>
+
+      <!-- Load Data Button -->
+      <div class="form-group">
+        <button type="button" id="load-data-button">Load Data</button>
+      </div>
+
+      <!-- Submit and Reset Buttons -->
+      <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Second Card: Survey -->
+  <div class="card"> 
+    <form id="survey-form">
+      <h2>Outdoor Activities Survey:</h2>
+
+      <!-- Checkbox Inputs -->
+      <div class="form-group">
+        <p>Select your favorite outdoor activities:</p>
+        <input type="checkbox" id="bike" name="activities" value="Mountain Biking">
+        <label for="bike">Mountain Biking</label><br>
+        <!-- Add other checkboxes -->
+      </div>
+  
+      <!-- Radio Input -->
+      <div class="form-group">
+        <p>How much time do you spend outdoors weekly?</p>
+        <input type="radio" id="less-than-five" name="time-outside" value="Less than 5 hours">
+        <label for="less-than-five">Less than 5 hours</label><br>
+        <!-- Add other radio inputs -->
+      </div>
+
+      <!-- Dropdown Input -->
+      <div class="form-group">
+        <label for="dest">Favorite Outdoor Destination:</label>
+        <select id="dest" name="destination">
+          <option value="Grand Teton">Grand Teton</option>
+          <!-- Add other options -->
+        </select>
+      </div>
+  
+      <!-- Text Input -->
+      <div class="form-group">
+        <label for="other-destination">Other Outdoor Destination You'd Like to Explore:</label>
+        <input type="text" id="other-destination" name="other-destination" placeholder="Enter a destination">
+      </div>
+    
+      <!-- Submit and Reset Buttons -->
+      <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <!-- Additional Links -->
+    <div class="form-group">
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FMohammedAlrasheidi%2FHotel-lab" target="_blank">Nu Validator</a><br>
+      <a href="https://github.com/MohammedAlrasheidi/Hotel-lab/tree/main" target="_blank">Hotel Repo</a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
